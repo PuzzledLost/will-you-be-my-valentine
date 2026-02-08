@@ -12,19 +12,21 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
+      "No.",
       "Are you sure?",
+      "Are you very sure?",
       "Are you very very sure?",
+      "Are you very very very sure?",
       "Pretty please",
-      "Last warning",
-      "Last last warning",
-      "Your a goon",
+      "Last warning ah",
+      "Last last warning.",
+      "You are a goon.",
       "I'm crying",
       "I'm crine",
       "I'm dying",
       "Yep I'm gone",
       "Alright this is JJ's ghost",
-      "Please goon",
+      "Pleaseeeeee",
       ":((((",
       "PRETTY PLEASE",
       "求求你",
@@ -49,7 +51,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Hi Breeze, will you be my Valentine?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
