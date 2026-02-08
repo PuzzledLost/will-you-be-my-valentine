@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -69,6 +70,7 @@ export default function Page() {
           </div>
         </>
       )}
+      <Analytics />
     </div>
   );
 }
