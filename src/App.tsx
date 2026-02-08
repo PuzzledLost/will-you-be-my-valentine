@@ -29,7 +29,7 @@ export default function Page() {
       "PRETTY PLEASE",
       "求求你",
       "Pài-thok",
-      "alright this is it",
+      "Alright this is it",
       "No :(",
     ];
 
